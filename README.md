@@ -5,6 +5,6 @@ Dotfiles and current wallpapers for the setup on my Desktop PC
 ![Screenshot](/dotfiles/config/images/scrot.png)
 
 ## Current Wallpaper
-![Screenshot](/dotifles/config/images/astronaut.png)
+![Screenshot](/dotfiles/config/images/astronaut.png)
 
 Still a work in progress!
