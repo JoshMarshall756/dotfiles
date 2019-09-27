@@ -1,0 +1,9 @@
+
+#!/bin/sh
+
+bg_color=#f533393b
+text_color=#f5f3f4f5
+htext_color=#f59575cd
+
+rofi -combi-modi drun,run -show combi -modi combi -lines 3 -eh 2 -width 100 -padding 600 -bw 0 -color-window "$bg_color, $bg_color, $bg_color" -color-normal "$bg_color, $text_color, $bg_color, $bg_color, $htext_color" -font "System San Francisco Display 16"
+

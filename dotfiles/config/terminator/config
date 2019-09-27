@@ -1,0 +1,44 @@
+[global_config]
+  borderless = True
+  inactive_color_offset = 1.0
+  tab_position = hidden
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#33393b"
+  title_inactive_fg_color = "#676e7d"
+  title_receive_bg_color = "#33393b"
+  title_transmit_bg_color = "#33393b"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[testing]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 22129f8c-af39-48b9-be55-be56f741de0a
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 1920:22
+      size = 958, 1035
+      title = josh@josh-desktop: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 22129f8c-af39-48b9-be55-be56f741de0a
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#e53c00"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_theme_colors = True
+    
