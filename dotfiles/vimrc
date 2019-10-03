@@ -1,2 +1,6 @@
 set number
 syntax enable 
+
+" Plugins "
+so ~/.vim/plugins.vim
+
