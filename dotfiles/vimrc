@@ -20,9 +20,14 @@ set hlsearch
 " the same level of indent
 set autoindent
 
+" set update intervals 100ms
+set updatetime=100
+
 " ---------- Plugins ----------
 call plug#begin('~/.vim/plugged')
 
+Plug 'airblade/vim-gitgutter'
+Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf'
