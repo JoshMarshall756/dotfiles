@@ -33,14 +33,30 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'lervag/vimtex'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
+" ---------- Status Line ----------
 " always display the status line (shows lightline)
 set laststatus=2
 
 " remove the --INSERT-- etc as lightline does that for us now
 set noshowmode
+
+" ---------- Vimtex ----------
+" prevent, uncommon, .tex extension being mistaken for plaintex
+let g:tex_flavor = 'latex'
+
+" ---------- Syntastic ----------
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " ---------- Key Mappings ----------
 " map NERDTree to Ctrl-n
