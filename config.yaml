@@ -1,4 +1,4 @@
-udoonfig:
+config:
   backup: true
   create: true
   dotpath: dotfiles
