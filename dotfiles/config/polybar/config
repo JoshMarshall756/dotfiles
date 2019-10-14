@@ -74,7 +74,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title:10:30:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -96,7 +96,9 @@ label-indicator-underline = ${colors.secondary}
 type = internal/fs
 interval = 25
 
+; mountpoints to be displayed
 mount-0 = /
+mount-1 = /home
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
@@ -194,15 +196,15 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
-label = %percentage:2%%
+label =  %percentage%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+;format-prefix = " "
+;format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
-label = %percentage_used%%
+label =  %percentage_used%%
 
 [module/eth]
 type = internal/network
@@ -277,7 +279,7 @@ format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature-c% 
+label =  %temperature-c% 
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
