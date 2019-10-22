@@ -34,7 +34,7 @@ profiles:
     - f_compton.conf
     - d_rofi
     - d_images
-  joshLaptop:
+  josh-laptop:
     dotfiles:
     - d_i3
     - d_polybar
