@@ -60,7 +60,7 @@ font-5 = "Noto Color Emoji:style=regular:size=1;0"
 
 modules-left = i3 xwindow
 modules-center = mpd 
-modules-right = filesystem pulseaudio memory cpu temperature {%@@ if profile == "josh-desktop" @@%} eth {%@@ endif @@%} date 
+modules-right = filesystem pulseaudio memory cpu temperature{%@@ if profile == "joshLaptop" @@%} wlan {%@@ endif @@%} {%@@ if profile == "josh-desktop" @@%} eth {%@@ endif @@%} date 
 
 tray-position = right 
 tray-padding = 2
@@ -94,7 +94,7 @@ format-disconnected =
 ;label-disconnected-foreground = ${colors.foreground-alt}
 {%@@ endif @@%}
 
-{%@@ if profile == "josh-desktop" @@%}
+{%@@ if profile == "joshLaptop" @@%}
 [module/wlan]
 type = internal/network
 interface = wlo1
@@ -312,7 +312,9 @@ format-muted = <label-muted>
 label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 muted
+; bug with font makes glyph giant
+;label-muted = 🔇 muted
+label-muted = muted
 label-muted-foreground = ${colors.alert} 
 
 bar-volume-width = 10
