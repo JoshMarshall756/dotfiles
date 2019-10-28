@@ -34,12 +34,23 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'lervag/vimtex'
 Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
 " ---------- Status Line ----------
 " always display the status line (shows lightline)
 set laststatus=2
+let g:lightline = {
+	\ 'colorscheme': 'jellybeans',
+	\ 'active': {
+	\ 'left': [ [ 'mode', 'paste' ],
+	\	[ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+	\ },
+	\ 'component_function': {
+	\	'gitbranch': 'fugitive#head'
+	\ },
+	\ }
 
 " remove the --INSERT-- etc as lightline does that for us now
 set noshowmode
