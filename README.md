@@ -8,4 +8,10 @@ Dotfiles and current wallpapers for the setup on my Desktop PC
 ## Current Wallpaper
 ![Screenshot](/dotfiles/config/images/astronaut.png)
 
-Still a work in progress!
+## Install
+This is still a work in progress!
+But you can isntall by:
+
+- Clone this repository
+- cd into the repository
+- run ./dotdrop.sh install
