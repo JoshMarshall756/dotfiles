@@ -60,7 +60,7 @@ font-5 = "Noto Color Emoji:style=regular:size=1;0"
 
 modules-left = i3 xwindow
 modules-center = mpd 
-modules-right = filesystem pulseaudio memory cpu temperature {%@@ if profile == "joshLaptop" @@%} wlan {%@@ endif @@%} {%@@ if profile == "josh-desktop" @@%} eth {%@@ endif @@%} date 
+modules-right = filesystem pulseaudio memory cpu temperature {%@@ if profile == "joshLaptop" @@%} wlan battery {%@@ endif @@%} {%@@ if profile == "josh-desktop" @@%} eth {%@@ endif @@%} date 
 
 tray-position = right 
 tray-padding = 2
