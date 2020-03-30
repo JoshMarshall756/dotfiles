@@ -1,5 +1,5 @@
 # Dotfiles
-Dotfiles and current wallpapers for the setup on my Desktop PC
+Dotfiles and current wallpapers for the setup on my Desktop PC and Laptop
 (out of date picture)
 
 ## Current Setup
