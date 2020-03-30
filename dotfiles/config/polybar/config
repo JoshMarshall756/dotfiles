@@ -177,7 +177,9 @@ interval = 25
 
 ; mountpoints to be displayed
 mount-0 = /
-mount-1 = /home
+{%@@ if profile == "joshLaptop" @@%}
+mount-1 = /home/josh/hdd
+{%@@ endif @@%}
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
