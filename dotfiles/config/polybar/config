@@ -58,8 +58,8 @@ font-1 = Font Awesome 5 Brands:style=regular;0
 font-2 = FontAwesome:style=regular;0
 font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=9;1"
 font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=9;1"
-font-5 = "Noto Color Emoji:style=regular:size=1;0"
-font-6 = "Material Icons:size=2;3"
+font-5 = Noto Color Emoji:style=Regular:scale=10;
+font-6 = Material Icons:style=Regular:scale=10;
 
 modules-left = i3 xwindow
 modules-center = mpd 
@@ -136,8 +136,8 @@ format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-label-charging=BAT %percentage%%  
-label-discharging=BAT %percentage%%  
+label-charging=🔋%percentage%%  
+label-discharging=🔋%percentage%%  
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
