@@ -163,7 +163,7 @@
 
                 # Web Browsing
                 assign [class="Firefox"] $firefox3
-		assign [class="discord"] $chat
+		assign [class="discord"] $chat4
 
                 # Chat
                 assign [class="TeamSpeak 3"] $chat4
