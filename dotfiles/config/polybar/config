@@ -105,12 +105,12 @@ interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = #0a6cf5
-label-connected = %essid% %downspeed% %upspeed%
+label-connected =  %essid% %downspeed% %upspeed%
 
-format-disconnected = DISCONNECTED
+format-disconnected =  DISCONNECTED
 ;format-disconnected = <label-disconnected>
-format-disconnected-underline = #f90000 
-;label-disconnected = %ifname% disconnected
+format-disconnected-underline = ${colors.alert}
+;label-disconnected =  %ifname% disconnected
 ;label-disconnected-foreground = ${colors.secondary}
 
 ramp-signal-0 = 
@@ -302,7 +302,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.underline}
 
-label = %date% %time%
+label = ⏱%date% %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
