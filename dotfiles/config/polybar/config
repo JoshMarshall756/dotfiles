@@ -132,9 +132,9 @@ format-charging-underline = ${colors.charging-underline}
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${colors.underline}
 
-format-full-prefix = " "
+format-full-prefix =🔋
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full-underline = #f5f118
 
 label-charging=🔋%percentage%%  
 label-discharging=🔋%percentage%%  
