@@ -20,6 +20,16 @@ set hlsearch
 " the same level of indent
 set autoindent
 
+" set tabstops and shiftwidth to 4 spaces, instead of default 8
+set ts=4
+set sw=4
+
+"always show location in file
+set ruler
+
+" Autotabs for certain code
+set smarttab
+
 " set update intervals 100ms
 set updatetime=100
 
