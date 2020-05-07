@@ -16,7 +16,7 @@
         floating_modifier $mod
 
         # start a terminal
-        bindsym $mod+Return exec i3-sensible-terminal
+        bindsym $mod+Return exec urxvt 
 
         # kill focused window
         bindsym $mod+Shift+q kill
@@ -35,6 +35,8 @@
 
         # Compton
         exec compton -c -f -m 0.8
+		
+		exec wal -i ~/.config/images/colours.jpg
 
 
 # Volume Controls ----------------------------------------
@@ -51,8 +53,8 @@
         # Monitor layout
         exec xrandr --output DVI-I-1 --off --output DVI-I-0 --off --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-5 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
 
-        # Wallpaper
-        exec_always feh --bg-scale ~/.config/images/astronaut.png
+        # Wallpaper - not needed as wallpaper is set with wal
+        # exec_always feh --bg-scale ~/.config/images/astronaut.png
 
         # Font for window titles. Will also be used by the bar unless a different font
         # is used in the bar {} block below.
