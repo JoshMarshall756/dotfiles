@@ -29,6 +29,9 @@ dotfiles:
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
+  f_colours.jpg:
+    src: config/images/colours.jpg
+    dst: ~/.config/images/colours.jpg
 profiles:
   josh-desktop:
     dotfiles:
@@ -49,3 +52,4 @@ profiles:
     - d_rofi
     - d_images
     - f_xresources
+    - f_colours.jpg
