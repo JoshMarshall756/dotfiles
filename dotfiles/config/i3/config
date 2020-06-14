@@ -36,7 +36,7 @@
         # Compton
         exec compton -c -f -m 0.8
 		
-		exec wal -i ~/.config/images/colours.jpg
+		exec wal -i ~/.config/images/rocket-wallpaper.png
 
 
 # Volume Controls ----------------------------------------
