@@ -20,13 +20,13 @@
 ;background = ${xrdb:color0:#222}
 background = #1f2324
 background-alt = #33393b 
-;foreground = ${xrdb:color7:#222}
+wal-foreground = ${xrdb:color7:#222}
 foreground = #f2f4f5
 foreground-alt = #cdf2d4
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
-underline = #0a6cf5
+underline = ${xrdb:color2:#222} 
 charging-underline = #0eed33
 
 [bar/main]
@@ -104,7 +104,7 @@ interface = wlo1
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #0a6cf5
+format-connected-underline = ${colors.underline} 
 label-connected =  %essid% ↓%downspeed% ↑%upspeed%
 
 format-disconnected =  DISCONNECTED
@@ -220,7 +220,7 @@ label-mode-background = ${colors.primary}
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-underline= ${colors.underline}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
@@ -343,7 +343,7 @@ thermal-zone = 0
 warn-temperature = 70
 
 format = <label>
-format-underline = #0a6cf5 
+format-underline = ${colors.underline} 
 format-warn = <label-warn>
 format-warn-underline = ${colors.alert}
 
