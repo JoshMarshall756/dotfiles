@@ -36,7 +36,7 @@
         # Compton
         exec compton -c -f -m 0.8
 		
-		exec wal -i ~/.config/images/rocket-wallpaper.png
+		exec wal -i ~/.config/images/cthulu-wallpaper.png
 
 
 # Volume Controls ----------------------------------------
@@ -52,9 +52,6 @@
 # Windows ----------------------------------------
         # Monitor layout
         exec xrandr --output DVI-I-1 --off --output DVI-I-0 --off --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-5 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
-
-        # Wallpaper - not needed as wallpaper is set with wal
-        # exec_always feh --bg-scale ~/.config/images/colours.png
 
         # Font for window titles. Will also be used by the bar unless a different font
         # is used in the bar {} block below.
@@ -212,7 +209,7 @@
         hide_edge_borders both
 
         # Lock PC
-        bindsym $mod+shift+x exec i3lock -ft -i ~/.config/images/colours.png
+        bindsym $mod+shift+x exec i3lock -ft -i ~/.config/images/cthulu-wallpaper.png
 
         # dmenu/rofi
                 bindsym $mod+d exec /home/josh/.config/rofi/rofi-script
