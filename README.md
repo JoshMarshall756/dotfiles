@@ -14,7 +14,7 @@ And I use Dotdrop to manage these dotfiles.
 
 ## Current Wallpaper
 ![Screenshot](/dotfiles/config/images/cthulu-wallpaper.png)
-![Andree Wallin][https://andreewallin.com/]
+[Andree Wallin][https://andreewallin.com/]
 
 ## Install
 This is still a work in progress!
