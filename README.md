@@ -2,9 +2,12 @@
 Dotfiles and current wallpapers for the setup on my Desktop PC and Laptop
 
 ## What's been used?
-- Polybar
-- Rofi
+- i3
+- i3lock
+- polybar
+- rofi
 - urxvt
+- pywal
 - compton
 
 And I use Dotdrop to manage these dotfiles.
