@@ -13,7 +13,8 @@ And I use Dotdrop to manage these dotfiles.
 ![Screenshot](/dotfiles/config/images/scrot.png)
 
 ## Current Wallpaper
-![Screenshot](/dotfiles/config/images/colours.jpg)
+![Screenshot](/dotfiles/config/images/cthulu-wallpaper.png)
+Credit: ![Andree Wallin][https://andreewallin.com/]
 
 ## Install
 This is still a work in progress!
