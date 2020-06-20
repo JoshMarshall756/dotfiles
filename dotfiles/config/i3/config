@@ -181,6 +181,10 @@
                 for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
                 for_window [title="^Steam Keyboard$"] floating enable
 
+				# Godot as per https://github.com/godotengine/godot/issues/5265 
+				for_window [instance="Godot_Engine"] floating enable
+				for_window [title="Godot_Editor"] floating disable 
+
                 # Writing
                 assign [class="libreoffice-startcenter"] $ws-6
                 assign [class="libreoffice-writer"] $ws-6
