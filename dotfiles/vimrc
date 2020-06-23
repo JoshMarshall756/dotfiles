@@ -51,6 +51,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'ap/vim-css-color' 
 Plug 'dylanaraps/wal.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
@@ -91,6 +92,10 @@ let g:syntastic_check_on_wq = 0
 "---------- Key Mappings ----------
 "map NERDTree to Ctrl-n
 map <C-n> :NERDTreeToggle<CR>
+"auto open NERDTree when vim starts up
+"autocmd vimenter * NERDTree
+"close vim if only window left open is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "map fzf to ';'
 map ; :Files<CR>
