@@ -1,5 +1,5 @@
 # Dotfiles
-Dotfiles and current wallpapers for the setup on my Desktop PC and Laptop
+Dotfiles and current wallpapers for the setup on my Laptop
 
 ## What's been used?
 - i3
